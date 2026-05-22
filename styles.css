@@ -1,0 +1,18 @@
+/* Small overrides — keep this file short.
+   Cosmo theme handles 95% of the styling. */
+
+/* Slightly tighter line-height in the About cards */
+.quarto-about-trestles .about-entity h1 { letter-spacing: -0.02em; }
+
+/* Make pull-quote callouts feel less boxy */
+div.callout.callout-style-default { border-radius: 6px; }
+
+/* A bit more breathing room around figures */
+figure { margin: 1.5rem auto; }
+
+/* Soften default link colour to be a little less Bootstrap-blue */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Code blocks: subtle background that works in light + dark themes */
+pre.sourceCode { border-radius: 6px; }

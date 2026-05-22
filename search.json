@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "📄 Download the full PDF: sandstedt_CV_may_2026.pdf\n\n\n\nYour browser cannot display the PDF inline. Download it here."
+  },
+  {
+    "objectID": "mindreading.html",
+    "href": "mindreading.html",
+    "title": "MInDReading",
+    "section": "",
+    "text": "NoteIn a nutshell\n\n\n\nMInDReading (Multilectal Individual Differences in Reading: Neurocognitive and Behavioral Effects of Dialect Exposure on Literacy Development) is a four-year research project funded by the Research Council of Norway (PI: Jade Sandstedt; NFR FRIPRO, 2026–2030, 9,957,000 NOK), based at Volda University College in collaboration with UiT — The Arctic University of Norway and the University of Oslo.\nExposure to linguistic variation is a basic fact of life. We move constantly across languages, dialects, registers, and modalities, and the variation we encounter shifts as we age and as our languages and communities change over time. MInDReading asks what such exposure to narrow, within-language grammatical (micro)variation does to the way we process language, and what grammatical variation can in turn reveal about the architecture of language: how linguistic knowledge is represented and deployed in real time."
+  },
+  {
+    "objectID": "mindreading.html#sec-group-erps",
+    "href": "mindreading.html#sec-group-erps",
+    "title": "MInDReading",
+    "section": "Background: How does dialectal variation shape reading?",
+    "text": "Background: How does dialectal variation shape reading?\nNorway is a natural laboratory for studying how exposure to variation shapes language processing. It has no spoken standard, its dialects carry high prestige and are used across all social settings, and bidialectalism is common. Moreover, alongside a regional spoken dialect, readers also learn two official written standards, Nynorsk and Bokmål, which feature widespread fine-grained differences in lexicon, syntax, morphology, and graphophonology.\nOne of the flagship studies behind MInDReading (Sandstedt et al., 2025) is a large EEG experiment that focused on how exposure to dialectal variation affects real-time sentence processing during reading. Readers saw Bokmål sentences containing predicate number-agreement violations (e.g. eplene var brun-e / *brun “the apples were brown-PL / -Ø”). The agreeing form brun-e is correct in both Nynorsk and Bokmål written standards, while the bare, unmarked (non-agreeing) stem *brun is incorrect but acceptable in many dialects. The readers came from two dialect backgrounds that differ in precisely this feature: agreement in Sunnmøre (n = 73; standard-aligned brun-e) versus non-agreement in Northern Norway (n = 83; standard-misaligned brun). Sunnmøre participants whose dialect marks the agreement show a robust P600 to the violation, but Northern Norwegian participants, whose dialect lacks agreement, show a strikingly attenuated response, reflecting an influence of their spoken dialect on how they process the written standard, reducing their sensitivity to the violation.\n\n  \n  Your browser does not support inline video.\n  Download the MP4.\n\nGrand-average ERP waveforms (left) shown alongside the matching scalp-topography sequence for each dialect group; the map situates the two regions and the predicate-agreement landscape across Norway.\nThese results reveal how exposure to narrow, within-language differences, here a single agreement suffix that the spoken dialect either marks or omits, can have outsized effects on how language is processed, even among L1 language users reading in their preferred written standard."
+  },
+  {
+    "objectID": "mindreading.html#sec-normq",
+    "href": "mindreading.html#sec-normq",
+    "title": "MInDReading",
+    "section": "Mapping multilectal exposure and engagement (WP1)",
+    "text": "Mapping multilectal exposure and engagement (WP1)\nThe group contrast above compares two regions, but it averages over readers who differ widely in how much they use and are exposed to their dialect, Nynorsk, and Bokmål. To trace how that experience shapes language processing at the individual level, the first goal of MInDReading is to develop the Norwegian Multilectal Questionnaire (NorMQ). This is a validated, fit-for-purpose tool for quantifying how much each speaker engages with their local dialect and with the Nynorsk and Bokmål written standards. NorMQ will be built as a legacy resource, freely available beyond the project for educators, researchers, and policymakers.\nA pilot version of NorMQ, run alongside the self-paced reading study described below (Sandstedt, Tanigawa & Eiksund, under review), illustrates how NorMQ can help capture both geographic and individual variation in Norwegian multilectal engagement.\n\n\n\n\n\n\nFigure 1: Pilot NorMQ results. The map (left) shows how Nynorsk engagement varies systematically from community to community across the Sunnmøre dialect region (n = 422). The scatter (right) shows the results of a factor analysis of SPR participants (n = 105), separating individual participants along dimensions such as written-dialect engagement (Factor 1) and Nynorsk-versus-Bokmål engagement (Factor 2), with each point colored by the reader’s preferred written standard (Nynorsk in blue, Bokmål in orange)."
+  },
+  {
+    "objectID": "mindreading.html#sec-neural",
+    "href": "mindreading.html#sec-neural",
+    "title": "MInDReading",
+    "section": "Neural signatures of multilectalism (WP2)",
+    "text": "Neural signatures of multilectalism (WP2)\nWith each reader’s multilectal experience quantified, WP2 asks how the neurophysiological effects seen in the group comparisons above relate to those individual differences in multilectal experience, using NorMQ engagement measures as predictors of each reader’s neural processing. Answering this requires resolving the EEG signal at the level of the individual participant. To that end, MInDReading develops subject-level methods based on Generalized Additive Mixed Models (GAMMs) (Sandstedt et al., 2026), which fit the non-linear time-course of individual participants’ neural responses and derive response magnitudes and latencies from the model-predicted values. These methods better preserve the full morphology and timing of each participant’s response, avoiding the pitfalls of traditional averaging of raw response amplitudes within fixed, experimenter-defined time windows.\nThe figure below contrasts two participants from the study above: a Sunnmøre speaker and a Northern Norwegian speaker. They show opposite-polarity responses to the same violation, consistent with opposite-signed P600 effects, suggesting that their processing is shaped by their dialect (Sunnmøre: agreement grammatical; Northern Norway: agreement ungrammatical) rather than by the written standard alone.\n\n\n\n\n\n\nFigure 2: Top row: observed waveforms (thin lines) and GAMM-smoothed estimates (thick lines) for Agreement (blue) vs Non-Agreement (red). Middle row: GAMM-based non-agreement-minus-agreement difference waves with detected response peaks (dashed) and 50% modeled area latency (dotted) highlighted. Bottom row: matching scalp topographies at 300–500 ms and 800–1000 ms.\n\n\n\nCombined with the individual experience profiles from NorMQ, this finer resolution lets us move beyond the group contrasts above to the central question of how degrees of multilectal experience modulate each language user’s processing and behavior."
+  },
+  {
+    "objectID": "mindreading.html#sec-literacy",
+    "href": "mindreading.html#sec-literacy",
+    "title": "MInDReading",
+    "section": "Multilectalism and literacy (WP3)",
+    "text": "Multilectalism and literacy (WP3)\nIn addition to the scientific objectives above, MInDReading addresses the societal stakes of language experience for literacy. In Norway, learning to read and write is itself a multilectal task, since pupils acquire two written standards that each sit at a different distance from their spoken dialect. How that experience shapes reading bears directly on literacy training and language policy.\nTo find out whether the neural effects above matter for everyday reading, MInDReading pairs the EEG experiments with eye-tracking-while-reading experiments, testing how the processing signatures seen in the lab translate into natural reading behavior and comprehension.\nThe two standards Nynorsk and Bokmål diverge across many areas of grammar, from lexicon and syntax to morphology and graphophonology. For example, the nominal paradigm below illustrates how common masculine nouns like stol “chair” are inflected differently in the two standards.\n\n\n\n\n\n\n\n\n\n\n\nindefinite sg.\ndefinite sg.\nindefinite pl.\ndefinite pl.\n\n\n\n\nNynorsk\nein stol\nstolen\nstolar\nstolane\n\n\nBokmål\nen stol\nstolen\nstoler\nstolene\n\n\n\nWith sufficient exposure, multilectal readers may come to expect and pre-activate different inflectional suffixes after the same root, depending on which standard they are reading:\n\nNynorsk: alle kan sjå førestillinga godt, fordi stolane / *stolene var plasserte med nok avstand frå kvarandre.\nBokmål: alle kan se forestillingen godt, fordi stolene / *stolane var plassert med nok avstand fra hverandre.\n‘Everyone can see the show well, because the chairs were placed with enough space between them.’\n\nAn initial multisession self-paced reading study (Sandstedt, Tanigawa & Eiksund, under review) shows both sides of this. As shown below, where the two standards are grammatically aligned (the number-agreement control), readers process them congruently; where the standards diverge (the definite-plural condition), the same participants, tested in separate Nynorsk and Bokmål sessions, display distinct, variety-specific profiles. An -ene form slows reading when it appears in Nynorsk (where -ane is expected), and an -ane form slows reading in Bokmål (where -ene is expected), with the cost localized to the immediate spillover region (positions 1–2, on average 407–1219 ms post-stimulus), consistent with the P600-like responses described above.\n\n\n\n\n\n\nFigure 3: Group-level self-paced reading times across the number-agreement (control) and definite-plural conditions in Nynorsk and Bokmål, with the same participants tested in separate Nynorsk and Bokmål sessions. Where the standards align, processing is congruent; where they diverge, the -ane / -ene forms produce variety-specific profiles. From Sandstedt, Tanigawa & Eiksund (under review).\n\n\n\nTaken together, these results suggest that speakers are finely attuned to variation within their own language. A contrast as small as the vowel of a single suffix, linked to different communicative contexts (reading and writing in Nynorsk versus Bokmål), can be learned and deployed during real-time language comprehension. Variety-specific processing differences like these probe the lower threshold of multilingualism, where the line between dialects and languages begins to blur."
+  },
+  {
+    "objectID": "mindreading.html#sec-summary",
+    "href": "mindreading.html#sec-summary",
+    "title": "MInDReading",
+    "section": "Summary",
+    "text": "Summary\nThe three strands of MInDReading are designed to work together. Individual experience profiles (WP1, NorMQ), neural responses (WP2, EEG and GAMMs), and reading behavior (WP3, eye-tracking) are modeled jointly, each used to help predict the others. This lets us measure how much of language processing is shaped by the grammar each reader brings with them, from their spoken dialect to their relationship with each written standard. The answer matters for theories of language representation and processing, and for literacy education in a multilectal society. The project’s tools and data, including the NorMQ, are designed as lasting resources for researchers and educators alike."
+  },
+  {
+    "objectID": "mindreading.html#team",
+    "href": "mindreading.html#team",
+    "title": "MInDReading",
+    "section": "Team",
+    "text": "Team\n\nJade Sandstedt — PI (Volda University College)\n\nTwo positions are currently under recruitment:\n\nPhD Research Fellow in Psycholinguistics, Multilectalism and Language Processing (Volda University College)\nPostdoctoral Research Fellow (3-year position; advertisement forthcoming)"
+  },
+  {
+    "objectID": "mindreading.html#related-publications",
+    "href": "mindreading.html#related-publications",
+    "title": "MInDReading",
+    "section": "Related publications",
+    "text": "Related publications\n\nSandstedt et al. (2026). Neurolinguistic signatures of microvariation and language change: Individual production variability predicts morphosyntactic processing differences. Cognition 272, 106477. [doi]\nSandstedt, Tanigawa & Eiksund (under review). Where does multilectalism end and multilingualism begin? Multilectals show variety-conditioned morphosyntactic processing in Norwegian self-paced reading. Bilingualism: Language and Cognition. [Preprint]\nSandstedt et al. (2025). Bidialectal language representation and processing: Evidence from Norwegian ERPs. Journal of Memory and Language 140, 104557. [doi]\nKubota et al. (2024). Bidialectal exposure modulates neural signatures to conflicting grammatical properties: Norway as a natural laboratory. Language Learning 74(2), 436–467. [doi]\n\nSee the full list on the Publications page."
+  },
+  {
+    "objectID": "mindreading.html#contact",
+    "href": "mindreading.html#contact",
+    "title": "MInDReading",
+    "section": "Contact",
+    "text": "Contact\nFor collaboration inquiries, data access, or participation: jade.jorgen.sandstedt@hivolda.no."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jade Sandstedt",
+    "section": "",
+    "text": "I am Associate Professor of Nordic Linguistics at Volda University College and PI of the MInDReading project (NFR FRIPRO, 2026–2030). My research uses narrow grammatical variation (from ongoing language change and sociolinguistic variation to dialect contact and bidialectalism) as a window onto real-time language processing, asking what narrow variability within and between speakers reveals about the mechanisms of language comprehension and the nature of grammatical representations.\nIn my work, I combine variationist sociolinguistics with experimental methodologies (EEG, eye-tracking, self-paced reading, speech production), with broader interests in (morpho)phonology, (morpho)syntax, language change, corpus linguistics, and Nordic language history."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Jade Sandstedt",
+    "section": "",
+    "text": "I am Associate Professor of Nordic Linguistics at Volda University College and PI of the MInDReading project (NFR FRIPRO, 2026–2030). My research uses narrow grammatical variation (from ongoing language change and sociolinguistic variation to dialect contact and bidialectalism) as a window onto real-time language processing, asking what narrow variability within and between speakers reveals about the mechanisms of language comprehension and the nature of grammatical representations.\nIn my work, I combine variationist sociolinguistics with experimental methodologies (EEG, eye-tracking, self-paced reading, speech production), with broader interests in (morpho)phonology, (morpho)syntax, language change, corpus linguistics, and Nordic language history."
+  },
+  {
+    "objectID": "index.html#current-focus",
+    "href": "index.html#current-focus",
+    "title": "Jade Sandstedt",
+    "section": "Current focus",
+    "text": "Current focus\n\nMInDReading (2026–2030) — a four-year NFR FRIPRO project on how dialect exposure and bidialectal experience shape the neural and cognitive signatures of reading and sentence processing in Norwegian. Project page →"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Jade Sandstedt",
+    "section": "Contact",
+    "text": "Contact\n\n✉️ jade.jorgen.sandstedt@hivolda.no\n☎️ +47 97 34 97 41\n🏛️ Institute for Language and Literature, Volda University College, Postbox 500, 6101 Volda, Norway\n📚 Google Scholar"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Selected Publications & Talks",
+    "section": "",
+    "text": "Sandstedt, Jade J. & Pavel Iosad. Autosegmental locality derives from the contrastive hierarchy: Evidence from micro-variation in Bantu vowel harmony. Target journal: Natural Language & Linguistic Theory.\nSandstedt, Jade J. Quantifying individual differences in ERP responses: A flexible GAM-based pipeline for heterogeneous response profiles.\nSandstedt, Jade J. Modeling and predicting language change in apparent time: A two-part methodology using GAMMs and GLMMs."
+  },
+  {
+    "objectID": "publications.html#in-preparation",
+    "href": "publications.html#in-preparation",
+    "title": "Selected Publications & Talks",
+    "section": "",
+    "text": "Sandstedt, Jade J. & Pavel Iosad. Autosegmental locality derives from the contrastive hierarchy: Evidence from micro-variation in Bantu vowel harmony. Target journal: Natural Language & Linguistic Theory.\nSandstedt, Jade J. Quantifying individual differences in ERP responses: A flexible GAM-based pipeline for heterogeneous response profiles.\nSandstedt, Jade J. Modeling and predicting language change in apparent time: A two-part methodology using GAMMs and GLMMs."
+  },
+  {
+    "objectID": "publications.html#under-review",
+    "href": "publications.html#under-review",
+    "title": "Selected Publications & Talks",
+    "section": "Under review",
+    "text": "Under review\n\nSandstedt, Jade J., Mizuki Tanigawa & Hjalmar Eiksund. Where does multilectalism end and multilingualism begin? Multilectals show variety-conditioned morphosyntactic processing in Norwegian self-paced reading. Bilingualism: Language and Cognition. [Preprint]\nSandstedt, Jade J., Anna Kamenetski & Merete Anderssen. The parser tracks grammatical probability: Gradient acceptability and morphosyntactic transparency modulate P600 magnitude and latency. Brain and Language. [Preprint]\nHelset, Stig, Jade J. Sandstedt & Tor Arne Haugen. Om to innsamlingsmetodar for talemålsdata: Korrelasjon og avvik mellom kontrollert stimulibasert elisitering og eigenrapportert språkbruk i spørjeskjema. Norsk Lingvistisk Tidsskrift."
+  },
+  {
+    "objectID": "publications.html#published",
+    "href": "publications.html#published",
+    "title": "Selected Publications & Talks",
+    "section": "Published",
+    "text": "Published\n\n2026\n\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Stig Helset, Björn Lundquist, Øystein A. Vangsnes & Jason Rothman. Neurolinguistic signatures of microvariation and language change: Individual production variability predicts morphosyntactic processing differences. Cognition 272, 106477. [doi]\n\n\n\n2025\n\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Jeannique Ann Darby, Stig Helset, Elahe Tavakoli, Øystein A. Vangsnes & Jason Rothman. Bidialectal language representation and processing: Evidence from Norwegian ERPs. Journal of Memory and Language 140, 104557. [doi]\nAnderson, Cormac, Matthew Scarborough, Lechosław Jocz, … Jade J. Sandstedt, et al. The Indo-European Cognate Relationships dataset. Scientific Data 12, 1541. [doi]\n\n\n\n2024\n\nKubota, Maki, Jorge González Alonso, Merete Anderssen, Isabel Nadine Jensen, Alicia Luque, Sergio Pereira Soares, Yanina Prystauka, Øystein A. Vangsnes, Jade J. Sandstedt & Jason Rothman. Bidialectal exposure modulates neural signatures to conflicting grammatical properties: Norway as a natural laboratory. Language Learning 74(2), 436–467. [doi]\n\n\n\n2023\n\nKjesrud, Karoline, Luka Natassja Olsen, Irene Teixidor-Toneu, Jade J. Sandstedt, Anneleen Kool & Linda Christiansen. Plant remains as sources to cultural history in Southeast Norway. In Complexity and Dynamics: Settlement and Landscape from the Bronze Age to the Renaissance in the Nordic Countries (1700 BC–AD 1600), pp. 113–128. Sidestone Press.\n\n\n\n2022\n\nLyskawa, Paulina, Jade J. Sandstedt, Eline Visser, Nathan Young & Björn Lundquist. Successes and shortcomings of phonological accounts of Scandinavian object shift. Proceedings of the Linguistic Society of America.\n\n\n\n2021\n\nKool, Anneleen, Karoline Kjesrud, Irene Teixidor-Toneu & Jade J. Sandstedt. Mennesker og planter i fortid og fremtid. In Planter og tradisjon. Kolofon Forlag. ISBN 9788230021743.\nTeixidor-Toneu, Irene, Anneleen Kool, Simon J. Greenhill, Karoline Kjesrud, Jade J. Sandstedt, Vincent Manzanilla & Fiona M. Jordan. Historical, archaeological and linguistic evidence test the phylogenetic inference of Viking-Age plant use. Philosophical Transactions of the Royal Society B 376, 20200086. [doi]\n\n\n\n2020\n\nSandstedt, Jade J. A reanalysis of abstract contrasts and opacity in Bondu-so tongue root harmony. Glossa 5(1), 91. [doi]\nSandstedt, Jade J. Vowel harmony decay in Old Norwegian. Papers in Historical Phonology 5, 11–48. [doi]\n\n\n\n2017\n\nSandstedt, Jade J. Transparency and blocking in Old Norwegian height harmony. Transactions of the Philological Society 115(3), 395–417. [doi] Winner of the RH Robins Prize, The Philological Society."
+  },
+  {
+    "objectID": "publications.html#thesis",
+    "href": "publications.html#thesis",
+    "title": "Selected Publications & Talks",
+    "section": "Thesis",
+    "text": "Thesis\n\n2019\n\nSandstedt, Jade J. Feature specifications and contrast in vowel harmony: The orthography and phonology of Old Norwegian height harmony. PhD thesis, University of Edinburgh. [Online]"
+  },
+  {
+    "objectID": "publications.html#invited-talks",
+    "href": "publications.html#invited-talks",
+    "title": "Selected Publications & Talks",
+    "section": "Invited talks",
+    "text": "Invited talks\n\n2025\n\nSandstedt, Jade J., Hjalmar Eiksund & Mizuki Tanigawa. The psycholinguistics of Nynorsk–Bokmål multilectal reading. LingLunch, University of Bergen.\nSandstedt, Jade J. Multilectal influence on reading: Language, brain and learning. Joint talk, Lancaster Multilingualism and Cognition Group / HL2C and UiT C-LaBL, Lancaster University / UiT.\nSandstedt, Jade J., Hjalmar Eiksund & Mizuki Tanigawa. Multilectalism as multilingualism: Processing grammatical variation across Nynorsk and Bokmål written standards. FLUENT Lunch Talk, University of Stavanger.\nSandstedt, Jade J. Event-related potentials reveal inter- and intra-speaker sociolinguistic variability during real-time sentence processing. University of Minho, Braga, Portugal. [slides]\nSandstedt, Jade J. Bilectalism as a sub-case of bilingualism: Neurocognitive insights from Norwegian dialects. Centre for Research on Bilingualism, Stockholm University.\n\n\n\n2024\n\nSandstedt, Jade J. The impact of sociolinguistic variation on language processing: Tracing individual differences in on-going language change in ERPs. Language Research Seminar, MultiLing, University of Oslo.\nSandstedt, Jade J. & Maki Kubota. Exploring bilectalism: How different Norwegian dialects shape language processing and representation. LingLunch, University of Bergen."
+  },
+  {
+    "objectID": "publications.html#conference-talks-posters",
+    "href": "publications.html#conference-talks-posters",
+    "title": "Selected Publications & Talks",
+    "section": "Conference talks & posters",
+    "text": "Conference talks & posters\n\n2025\n\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Jeannique Ann Darby, Stig Helset, Björn Lundquist, Elahe Tavakoli, Øystein A. Vangsnes & Jason Rothman. Dialect and sociolinguistic influence on reading: Evidence from Norwegian ERPs. ISB 15 — 15th International Symposium on Bilingualism, BCBL, San Sebastián, Spain. [slides]\nBye, Patrik & Jade J. Sandstedt. West Nordic umlaut, Old Norwegian vowel harmony, and the life cycle. Fonologi i Norden, University of Oslo. [handout]\n\n\n\n2024\n\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Jeannique Ann Darby, Stig Helset, Yanina Prystauka, Elahe Tavakoli, Øystein A. Vangsnes & Jason Rothman. Bidialectal language representation and processing: Evidence from Norwegian ERPs. ICLaVE 12 — 12th International Conference on Language Variation in Europe, Austrian Academy of Sciences / University of Vienna. [handout]\nSandstedt, Jade J., Merete Anderssen, Stig Helset, Maki Kubota, Björn Lundquist, Øystein A. Vangsnes & Jason Rothman. Tracing language change in ERPs. AMLaP — Architectures and Mechanisms of Language Processing, University of Edinburgh. (Poster.) [poster]\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Björn Lundquist, Jason Rothman & Øystein A. Vangsnes. The neurophysiological correlates of language change: Insights from on-going dialect levelling in Sunnmøre Norwegian. 9th Conference of the Scandinavian Association for Language and Cognition, Norwegian University of Science and Technology, Trondheim. [handout]\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Stig Helset, Jason Rothman & Øystein A. Vangsnes. The neurophysiological correlates of language change: Insights from on-going dialect levelling in Sunnmøre Norwegian. Center for Language, Brain and Learning (C-LaBL), UiT — The Arctic University of Norway, Tromsø. [handout]\n\n\n\n2023\n\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Jeannique Ann Darby, Stig Helset, Yanina Prystauka, Elahe Tavakoli, Øystein A. Vangsnes & Jason Rothman. Cross-dialectal influence in bilectal processing: Evidence from Norwegian ERPs. AMLaP — Architectures and Mechanisms of Language Processing, BCBL, San Sebastián, Spain. [handout]\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Jeannique Ann Darby, Stig Helset, Yanina Prystauka, Elahe Tavakoli, Øystein A. Vangsnes & Jason Rothman. The distinct grammars of bilectal processing: Evidence from Norwegian ERPs. International Conference on Multilingualism and Language Acquisition, University of Helsinki.\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Jeannique Ann Darby, Stig Helset, Yanina Prystauka, Elahe Tavakoli, Øystein A. Vangsnes & Jason Rothman. The role of grammatical alignment, engagement, and exposure in cross-dialectal influence on bilectal processing. Workshop on Multilectal Minds, UiT — The Arctic University of Norway, Tromsø.\n\n\n\n2022\n\nSandstedt, Jade J., Maki Kubota, Merete Anderssen, Anna Bogoyavlenskaya, Jeannique Ann Darby, Hjalmar T. Eiksund, Stig Helset, Yanina Prystauka, Elahe Tavakoli, Øystein A. Vangsnes & Jason Rothman. Tverrdialektal påverknad på bilektal prosessering: bevis frå norske ERPar. Møte om Norsk Språk (MONS), UiT — The Arctic University of Norway, Tromsø.\n\n\n\n2021\n\nSandstedt, Jade J. Tracking and visualising the causes and pathways of vowel harmony decay in Old Norwegian. 12th International Conference of Nordic and General Linguistics, University of Oslo. [handout]"
+  }
+]
