@@ -45,3 +45,25 @@ language history.
 - 🏛️ Institute for Language and Literature, Volda University College,
   Postbox 500, 6101 Volda, Norway
 - 📚 [Google Scholar](https://scholar.google.com/citations?user=ybvDL-4AAAAJ)
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jade Sandstedt",
+  "alternateName": "Jade Jørgen Michael Sandstedt",
+  "jobTitle": "Associate Professor of Nordic Linguistics",
+  "url": "https://jadesandstedt.com",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Volda University College",
+    "url": "https://www.hivolda.no/"
+  },
+  "sameAs": [
+    "https://scholar.google.com/citations?user=ybvDL-4AAAAJ",
+    "https://www.hivolda.no/tilsette/institutt-sprak-og-litteratur/jade-jorgen-michael-sandstedt"
+  ]
+}
+</script>
+```
