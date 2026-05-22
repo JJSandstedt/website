@@ -10,11 +10,12 @@ project:
     - "images/individual_differences_gam.png"
     - "images/normq_combined.png"
     - "pdfs/**"
+    - "CNAME"          # keeps the custom domain set on every publish
 
 website:
   title: "Jade Sandstedt"
   description: "Associate Professor of Nordic Linguistics, Volda University College — PI, MInDReading (NFR FRIPRO 2026–2030)"
-  site-url: "https://jjsandstedt.github.io/website"   # GitHub Pages URL; change to https://jadesandstedt.com once the custom domain is live
+  site-url: "https://jadesandstedt.com"   # custom domain served via GitHub Pages
   favicon: images/favicon.png                    # optional — add a .png to images/ later
 
   navbar:
