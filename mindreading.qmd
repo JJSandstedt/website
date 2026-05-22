@@ -1,0 +1,239 @@
+---
+title: "MInDReading"
+subtitle: "Multilectal Individual Differences in Reading — NFR FRIPRO (2026–2030)"
+toc: true
+toc-location: right
+fig-align: center
+---
+
+::: {.callout-note title="In a nutshell"}
+**MInDReading** (*Multilectal Individual Differences in Reading:
+Neurocognitive and Behavioral Effects of Dialect Exposure on Literacy
+Development*) is a four-year research project funded by the
+[Research Council of Norway](https://www.forskningsradet.no/en/)
+(PI: Jade Sandstedt; NFR FRIPRO, 2026–2030, 9,957,000 NOK), based at
+Volda University College in collaboration with UiT — The Arctic
+University of Norway and the University of Oslo.
+:::
+
+Exposure to linguistic variation is a basic fact of life. We move
+constantly across languages, dialects, registers, and modalities, and the
+variation we encounter shifts as we age and as our languages and communities change over time. MInDReading
+asks what such exposure to *narrow*, within-language
+**grammatical (micro)variation** does to the way we process language, and what
+grammatical variation can in turn reveal about the architecture of
+language: how linguistic knowledge is represented and deployed in real
+time. 
+
+## Background: How does dialectal variation shape reading? {#sec-group-erps}
+
+Norway is a natural laboratory for studying how exposure to variation
+shapes language processing. It has no spoken standard, its
+dialects carry high prestige and are used across all social settings,
+and bidialectalism is common. Moreover, alongside a regional spoken dialect,
+readers also learn two official written standards, **Nynorsk** and
+**Bokmål**, which feature widespread fine-grained differences in lexicon, syntax, morphology, and
+graphophonology.
+
+
+One of the flagship studies behind MInDReading
+([Sandstedt et al., 2025](https://doi.org/10.1016/j.jml.2024.104557))
+is a large EEG experiment that focused on how exposure to dialectal variation affects real-time sentence processing during reading. 
+Readers saw Bokmål sentences
+containing **predicate number-agreement violations** (e.g.
+*eplene var* [***brun-e***]{style="color:#377EB8; white-space:nowrap"} /
+**\***[***brun***]{style="color:#E41A1C"} "the apples were brown-PL / -Ø"). The agreeing form
+[***brun-e***]{style="color:#377EB8; white-space:nowrap"} is correct in both Nynorsk and Bokmål written standards, while the bare, unmarked (non-agreeing) stem **\***[***brun***]{style="color:#E41A1C"} is incorrect but acceptable in many dialects.
+The readers came from two dialect backgrounds that differ in precisely
+this feature: agreement in Sunnmøre (*n* = 73; standard-aligned [**brun-e**]{style="color:#377EB8; white-space:nowrap"}) versus non-agreement in Northern Norway (*n* = 83; standard-misaligned
+[**brun**]{style="color:#E41A1C"}). Sunnmøre participants whose dialect
+marks the agreement show a robust P600 to the violation, but Northern Norwegian participants, whose
+dialect lacks agreement, show a strikingly **attenuated** response, reflecting
+an influence of their spoken dialect on how they process the written
+standard, reducing their sensitivity to the violation.
+
+```{=html}
+<video controls autoplay loop muted playsinline preload="auto"
+       style="width:100%; border-radius:8px; background:#fff;">
+  <source src="images/erp_unfolding.mp4" type="video/mp4">
+  Your browser does not support inline video.
+  <a href="images/erp_unfolding.mp4">Download the MP4</a>.
+</video>
+```
+
+*Grand-average ERP waveforms (left) shown alongside the matching
+scalp-topography sequence for each dialect group; the map situates the
+two regions and the predicate-agreement landscape across Norway.*
+
+These results reveal how exposure to narrow, within-language differences, here a single agreement suffix that
+the spoken dialect either marks or omits, can have outsized effects on
+how language is processed, even among L1 language users reading in their preferred written standard. 
+
+## Mapping multilectal exposure and engagement (WP1) {#sec-normq}
+
+The group contrast above compares two regions, but it averages over
+readers who differ widely in how much they use and are exposed to their dialect, Nynorsk, and Bokmål. 
+To trace how that experience
+shapes language processing at the individual level, the first goal of MInDReading is to develop the **Norwegian Multilectal
+Questionnaire (NorMQ)**. This is a validated, fit-for-purpose tool for
+quantifying how much each speaker engages with their local dialect and
+with the Nynorsk and Bokmål written standards. NorMQ will be built as a legacy
+resource, freely available beyond the project for educators, researchers,
+and policymakers.
+
+A pilot version of NorMQ, run alongside the self-paced reading study [described below](#sec-literacy) ([Sandstedt, Tanigawa & Eiksund, under review](https://drive.google.com/file/d/1dKIPXKUnJhDQ4j71lwsqi6QhGeHeACXv/view)), illustrates how NorMQ can help capture both geographic and individual variation in Norwegian multilectal engagement. 
+
+![Pilot NorMQ results. The map (left) shows how Nynorsk engagement varies
+systematically from community to community
+across the Sunnmøre dialect region (n = 422). The
+scatter (right) shows the results of a factor analysis of SPR participants (n = 105), separating individual participants along dimensions such as written-dialect engagement (Factor 1) and Nynorsk-versus-Bokmål
+engagement (Factor 2), with each point colored by the reader's preferred written standard
+(Nynorsk in blue, Bokmål in orange).](images/normq_combined.png){#fig-normq fig-alt="Left: map of Sunnmøre municipalities shaded by Nynorsk engagement with labeled towns. Right: scatter and density plot of individual NorMQ factor scores colored by preferred written standard."}
+
+## Neural signatures of multilectalism (WP2) {#sec-neural}
+
+With each reader's multilectal experience quantified, WP2 asks how the
+neurophysiological effects seen in the group comparisons above relate to
+those individual differences in multilectal experience, using NorMQ engagement measures as
+predictors of each reader's neural processing. Answering this requires
+resolving the EEG signal at the level of the individual participant. 
+To that end, MInDReading develops subject-level methods based on
+**Generalized Additive Mixed Models (GAMMs)**
+([Sandstedt et al., 2026](https://doi.org/10.1016/j.cognition.2026.106477)),
+which fit the non-linear time-course of individual participants' neural responses and derive response magnitudes and latencies from the model-predicted values. These methods better preserve the full morphology and timing of each
+participant's response, avoiding the pitfalls of traditional averaging of raw response amplitudes within fixed,
+experimenter-defined time windows.
+
+The figure below contrasts two participants from the study above: a Sunnmøre
+speaker and a Northern Norwegian speaker. They show **opposite-polarity
+responses** to the same violation, consistent with opposite-signed P600 effects, 
+suggesting that their processing is shaped by their dialect (Sunnmøre: agreement *grammatical*; Northern Norway: agreement *ungrammatical*) rather than by the written standard alone.
+
+![*Top row:* observed waveforms (thin lines) and GAMM-smoothed estimates
+(thick lines) for Agreement (blue) vs Non-Agreement (red). *Middle row:*
+GAMM-based non-agreement-minus-agreement difference waves with detected
+response peaks (dashed) and 50% modeled area latency (dotted) highlighted.
+*Bottom row:* matching scalp topographies at 300–500 ms and
+800–1000 ms.](images/individual_differences_gam.png){#fig-gamm-individual fig-alt="Subject-level GAMM analysis of two participants showing opposite-polarity ERP responses to predicate number agreement."}
+
+Combined with the individual experience profiles from NorMQ, this finer
+resolution lets us move beyond the [group contrasts above](#sec-group-erps) to
+the central question of how *degrees* of multilectal experience modulate
+each language user's processing and behavior.
+
+## Multilectalism and literacy (WP3) {#sec-literacy}
+
+In addition to the scientific objectives above, MInDReading addresses the
+societal stakes of language experience for literacy. In Norway, learning
+to read and write is itself a multilectal task, since pupils acquire two
+written standards that each sit at a different distance from their spoken
+dialect. How that experience shapes reading bears directly on literacy
+training and language policy.
+
+To find out whether the neural effects above matter for everyday reading,
+MInDReading pairs the EEG experiments with **eye-tracking-while-reading**
+experiments, testing how the processing signatures seen in the lab
+translate into natural reading behavior and comprehension. 
+
+The two standards **Nynorsk** and **Bokmål** diverge across many areas of grammar, from lexicon
+and syntax to morphology and graphophonology. For example, the nominal 
+paradigm below illustrates how common masculine nouns like *stol* "chair" are inflected
+differently in the two standards.
+
+|             | indefinite sg.                        | definite sg.                          | indefinite pl.                        | definite pl.                          |
+|-------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+| **Nynorsk** | [**ein**]{style="color:#458BBA"} stol | stolen                                | stol[**ar**]{style="color:#458BBA"}   | stol[**ane**]{style="color:#458BBA"}  |
+| **Bokmål**  | [**en**]{style="color:#BA7445"} stol  | stolen                                | stol[**er**]{style="color:#BA7445"}   | stol[**ene**]{style="color:#BA7445"}  |
+
+With sufficient exposure, multilectal readers may come to expect and
+pre-activate different inflectional suffixes after the same root,
+depending on which standard they are reading:
+
+> Nynorsk: *alle kan sjå førestillinga godt, fordi*
+> _**stol[a]{style="color:#458BBA"}ne / \*stol[e]{style="color:#BA7445"}ne**_
+> *var plasserte med nok avstand frå kvarandre.*
+>
+> Bokmål: *alle kan se forestillingen godt, fordi*
+> _**stol[e]{style="color:#BA7445"}ne / \*stol[a]{style="color:#458BBA"}ne**_
+> *var plassert med nok avstand fra hverandre.*
+>
+> 'Everyone can see the show well, because **the chairs** were placed with
+> enough space between them.'
+
+An initial multisession self-paced reading study
+([Sandstedt, Tanigawa & Eiksund, under review](https://drive.google.com/file/d/1dKIPXKUnJhDQ4j71lwsqi6QhGeHeACXv/view))
+shows both sides of this. As shown below, where the two standards are grammatically
+aligned (the number-agreement control), readers process them
+congruently; where the standards diverge (the definite-plural
+condition), the *same* participants, tested in separate Nynorsk and
+Bokmål sessions, display distinct, variety-specific profiles. An
+[**-ene**]{style="color:#BA7445"} form slows reading when it appears in
+Nynorsk (where [**-ane**]{style="color:#458BBA"} is expected), and an
+[**-ane**]{style="color:#458BBA"} form slows reading in Bokmål (where
+[**-ene**]{style="color:#BA7445"} is expected), with the cost localized
+to the immediate spillover region (positions 1–2, on average 407–1219 ms
+post-stimulus), consistent with the P600-like responses described above.
+
+![Group-level self-paced reading times across the number-agreement
+(control) and definite-plural conditions in Nynorsk and Bokmål, with the
+same participants tested in separate Nynorsk and Bokmål sessions. Where
+the standards align, processing is congruent; where they diverge, the
+[**-ane**]{style="color:#458BBA"} / [**-ene**]{style="color:#BA7445"}
+forms produce variety-specific profiles. *From Sandstedt, Tanigawa &
+Eiksund (under review).*](images/reading_definite_plural.png){#fig-defpl fig-alt="Self-paced reading times across number-agreement and definite-plural conditions in Nynorsk and Bokmål, same participants tested in separate sessions."}
+
+Taken together, these results suggest that speakers are finely attuned to
+variation within their own language. A contrast as small as the vowel of
+a single suffix, linked to different communicative contexts (reading and
+writing in Nynorsk versus Bokmål), can be learned and deployed during
+real-time language comprehension. Variety-specific processing differences like these probe the lower
+threshold of multilingualism, where the line between dialects and
+languages begins to blur.
+
+## Summary {#sec-summary}
+
+The three strands of MInDReading are designed to work together. Individual experience
+profiles (WP1, NorMQ), neural responses (WP2, EEG and GAMMs), and reading
+behavior (WP3, eye-tracking) are modeled jointly, each used to help predict
+the others. This lets us measure how much of language processing is shaped
+by the grammar each reader brings with them, from their spoken dialect to
+their relationship with each written standard. The
+answer matters for theories of language representation and processing,
+and for literacy education in a multilectal society. The project's tools and data, including the NorMQ, are designed
+as lasting resources for researchers and educators alike.
+
+## Team
+
+- **Jade Sandstedt** — PI (Volda University College)
+
+Two positions are currently under recruitment:
+
+- [PhD Research Fellow in Psycholinguistics, Multilectalism and Language Processing](https://www.jobbnorge.no/en/available-jobs/job/297094/phd-research-fellow-in-psycholinguistics-multilectalism-and-language-processing) (Volda University College)
+- Postdoctoral Research Fellow (3-year position; advertisement forthcoming)
+
+## Related publications
+
+- **Sandstedt et al.** (2026). Neurolinguistic signatures of
+  microvariation and language change: Individual production variability
+  predicts morphosyntactic processing differences. *Cognition* 272, 106477.
+  [[doi]](https://doi.org/10.1016/j.cognition.2026.106477)
+- **Sandstedt, Tanigawa & Eiksund** (under review). Where does
+  multilectalism end and multilingualism begin? Multilectals show
+  variety-conditioned morphosyntactic processing in Norwegian
+  self-paced reading. *Bilingualism: Language and Cognition.*
+  [[Preprint]](https://drive.google.com/file/d/1dKIPXKUnJhDQ4j71lwsqi6QhGeHeACXv/view)
+- **Sandstedt et al.** (2025). Bidialectal language representation and
+  processing: Evidence from Norwegian ERPs. *Journal of Memory and
+  Language* 140, 104557.
+  [[doi]](https://doi.org/10.1016/j.jml.2024.104557)
+- **Kubota et al.** (2024). Bidialectal exposure modulates neural
+  signatures to conflicting grammatical properties: Norway as a natural
+  laboratory. *Language Learning* 74(2), 436–467.
+  [[doi]](https://doi.org/10.1111/lang.12608)
+
+See the full list on the [Publications](publications.qmd) page.
+
+## Contact
+
+For collaboration inquiries, data access, or participation:
+[jade.jorgen.sandstedt@hivolda.no](mailto:jade.jorgen.sandstedt@hivolda.no).

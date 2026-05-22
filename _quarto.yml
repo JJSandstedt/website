@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  # These folders are referenced from JavaScript on the MInDReading page, so
+  # Quarto can't see them by scanning Markdown. Explicitly list them as
+  # resources so they get copied into _site/ on render.
+  resources:
+    - "images/erp_unfolding.mp4"
+    - "images/reading_definite_plural.png"
+    - "images/individual_differences_gam.png"
+    - "images/normq_combined.png"
+    - "pdfs/**"
+
+website:
+  title: "Jade Sandstedt"
+  description: "Associate Professor of Nordic Linguistics, Volda University College — PI, MInDReading (NFR FRIPRO 2026–2030)"
+  site-url: "https://jadesandstedt.quarto.pub"   # update when you publish; can be replaced with a custom domain later
+  favicon: images/favicon.png                    # optional — add a .png to images/ later
+
+  navbar:
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "MInDReading"
+        href: mindreading.qmd
+    right:
+      - icon: envelope
+        href: "mailto:jade.jorgen.sandstedt@hivolda.no"
+        aria-label: Email
+      - icon: mortarboard-fill
+        href: "https://scholar.google.com/citations?user=ybvDL-4AAAAJ"
+        aria-label: Google Scholar
+
+  page-footer:
+    left: "© 2026 Jade Sandstedt"
+    right:
+      - text: "Email"
+        href: "mailto:jade.jorgen.sandstedt@hivolda.no"
+      - text: "Google Scholar"
+        href: "https://scholar.google.com/citations?user=ybvDL-4AAAAJ"
+      - text: "Volda University College"
+        href: "https://www.hivolda.no/"
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]   # cosmo as the base, then our SteelBlue3/warm-grey overrides
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    fig-cap-location: bottom
+    link-external-newwindow: true
+    smooth-scroll: true
+
+bibliography: publications.bib
+csl: https://www.zotero.org/styles/apa            # change to your preferred style (e.g. linguistic-society-of-america)

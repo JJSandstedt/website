@@ -1,0 +1,47 @@
+---
+title: "Jade Sandstedt"
+subtitle: "Associate Professor of Nordic Linguistics · Volda University College"
+image: images/jade.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 16em
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:jade.jorgen.sandstedt@hivolda.no"
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=ybvDL-4AAAAJ"
+    - icon: file-earmark-person
+      text: CV
+      href: cv.qmd
+---
+
+## About me
+
+I am Associate Professor of Nordic Linguistics at Volda University College and PI of the
+[MInDReading](mindreading.qmd) project (NFR FRIPRO, 2026–2030). My research uses narrow
+grammatical variation (from ongoing language change and sociolinguistic variation to
+dialect contact and bidialectalism) as a window onto real-time language processing,
+asking what narrow variability within and between speakers reveals about the mechanisms
+of language comprehension and the nature of grammatical representations.
+
+In my work, I combine variationist sociolinguistics with experimental methodologies
+(EEG, eye-tracking, self-paced reading, speech production), with broader interests in
+(morpho)phonology, (morpho)syntax, language change, corpus linguistics, and Nordic
+language history.
+
+## Current focus
+
+- **MInDReading** (2026–2030) — a four-year NFR FRIPRO project on how dialect exposure
+  and bidialectal experience shape the neural and cognitive signatures of reading and
+  sentence processing in Norwegian. [Project page →](mindreading.qmd)
+
+## Contact
+
+- ✉️ [jade.jorgen.sandstedt@hivolda.no](mailto:jade.jorgen.sandstedt@hivolda.no)
+- ☎️ +47 97 34 97 41
+- 🏛️ Institute for Language and Literature, Volda University College,
+  Postbox 500, 6101 Volda, Norway
+- 📚 [Google Scholar](https://scholar.google.com/citations?user=ybvDL-4AAAAJ)

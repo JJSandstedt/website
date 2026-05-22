@@ -1,0 +1,150 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+//  Palette — SteelBlue3 accent on a warm light-grey body
+// =============================================================================
+$steel-blue:      #4F94CD;   // SteelBlue3  (R's `col2rgb("steelblue3")`)
+$steel-blue-dark: #2E5984;   // a deeper steel for headings + body links
+$steel-blue-soft: #d6e6f2;   // tint used for hover/inactive nav links
+$warm-grey-bg:    #f5f3ee;   // background — warm, not creamy
+$warm-grey-card:  #ffffff;   // cards / callouts stay white for contrast
+$warm-grey-line:  #e2ddd1;   // subtle hairline borders
+$ink:             #232323;
+
+// Bootstrap-level overrides (cosmo derives most colours from these)
+$primary:           $steel-blue;
+$body-bg:           $warm-grey-bg;
+$body-color:        $ink;
+$link-color:        $steel-blue-dark;
+$link-hover-color:  $steel-blue;
+$border-color:      $warm-grey-line;
+
+// Headings
+$headings-color:        $steel-blue-dark;
+$headings-font-weight:  600;
+$h1-font-size:          2.0rem;
+$h2-font-size:          1.55rem;
+$h3-font-size:          1.25rem;
+
+// Quarto-specific
+$navbar-bg:    $steel-blue;
+$navbar-fg:    #ffffff;
+$navbar-hl:    $steel-blue-soft;     // hover/active link colour on navbar
+$footer-bg:    $steel-blue-dark;
+$footer-fg:    #f3f3f3;
+
+// Typography — a touch more academic
+$font-family-sans-serif:
+  "Source Sans 3", "Source Sans Pro",
+  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:
+  "Source Serif 4", "Source Serif Pro",
+  Georgia, "Times New Roman", serif;
+
+
+/*-- scss:rules --*/
+
+// Page rhythm ----------------------------------------------------------------
+body {
+  background: $warm-grey-bg;
+}
+
+// Pull the navbar slightly forward
+.navbar {
+  box-shadow: 0 1px 4px rgba(46, 89, 132, 0.15);
+}
+
+// Slim, calm h2/h3 borders
+h2 {
+  border-bottom: 1px solid $warm-grey-line;
+  padding-bottom: 0.25rem;
+  margin-top: 2.0rem;
+}
+h3 {
+  color: $steel-blue;
+  margin-top: 1.4rem;
+}
+
+// Cards / callouts: rounded, with a faint hairline
+.callout,
+.callout.callout-style-default {
+  border-radius: 8px;
+  border-color: $warm-grey-line;
+  background: $warm-grey-card;
+}
+.callout-title { color: $steel-blue-dark; }
+
+// Figures breathe a little more
+figure { margin: 1.5rem auto; }
+figcaption {
+  color: #5b6770;
+  font-size: 0.92rem;
+}
+
+// Links: no underline by default, subtle hover
+a { text-decoration: none; transition: color 0.15s ease; }
+a:hover { text-decoration: underline; }
+
+// Code blocks: subtle background that pairs with the warm grey
+pre, pre.sourceCode {
+  border-radius: 6px;
+  background: #efece5;
+  border: 1px solid $warm-grey-line;
+}
+
+// Publications page —
+// Each year sits on its own line with a small accent, citations indent under it
+.publication-year {
+  color: $steel-blue;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-top: 1.0rem;
+}
+
+// Make the author's own name pop without being shouty
+strong.me, b.me { color: $steel-blue-dark; }
+
+// Footer: tighter, lighter type
+.nav-footer a { color: #ffffff; opacity: 0.92; }
+.nav-footer a:hover { opacity: 1; }
+
+// ERP / animation players (used on the MInDReading page)
+.erp-player {
+  background: $warm-grey-card;
+  border: 1px solid $warm-grey-line;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 1.5rem 0;
+}
+.erp-player img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+.erp-player .erp-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 0.88rem;
+  color: $steel-blue-dark;
+}
+.erp-player .erp-label { white-space: nowrap; opacity: 0.85; }
+.erp-player button.erp-play {
+  background: $steel-blue;
+  color: #ffffff;
+  border: none;
+  padding: 0.35rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  min-width: 2.6rem;
+  line-height: 1.2;
+}
+.erp-player button.erp-play:hover { background: $steel-blue-dark; }
+.erp-player input[type="range"] {
+  flex: 1;
+  accent-color: $steel-blue;
+  cursor: pointer;
+}

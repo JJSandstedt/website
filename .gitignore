@@ -1,0 +1,17 @@
+/.quarto/
+/_site/
+/_freeze/
+.Rproj.user
+.Rhistory
+.RData
+.DS_Store
+*.html
+!index.html
+
+**/*.quarto_ipynb
+
+# Intermediate animation frames (only inputs for building images/erp_unfolding.mp4)
+images/Dynamic_waveforms/
+
+# Stray duplicate of the project video (kept as images/erp_unfolding.mp4)
+pdfs/erp_unfolding.mp4
