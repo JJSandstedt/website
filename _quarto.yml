@@ -14,7 +14,7 @@ project:
 website:
   title: "Jade Sandstedt"
   description: "Associate Professor of Nordic Linguistics, Volda University College — PI, MInDReading (NFR FRIPRO 2026–2030)"
-  site-url: "https://jadesandstedt.quarto.pub"   # update when you publish; can be replaced with a custom domain later
+  site-url: "https://jjsandstedt.github.io/website"   # GitHub Pages URL; change to https://jadesandstedt.com once the custom domain is live
   favicon: images/favicon.png                    # optional — add a .png to images/ later
 
   navbar:
