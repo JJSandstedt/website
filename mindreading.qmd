@@ -165,7 +165,7 @@ An initial multisession self-paced reading study
 shows both sides of this. As shown below, where the two standards are grammatically
 aligned (the number-agreement control), readers process them
 congruently; where the standards diverge (the definite-plural
-condition), the *same* participants, tested in separate Nynorsk and
+condition), the *same* participants (n = 105), tested in separate Nynorsk and
 Bokmål sessions, display distinct, variety-specific profiles. An
 [**-ene**]{style="color:#BA7445"} form slows reading when it appears in
 Nynorsk (where [**-ane**]{style="color:#458BBA"} is expected), and an
@@ -193,7 +193,7 @@ languages begins to blur.
 ## Summary {#sec-summary}
 
 The three strands of MInDReading are designed to work together. Individual experience
-profiles (WP1, NorMQ), neural responses (WP2, EEG and GAMMs), and reading
+profiles (WP1, NorMQ), neural responses (WP2, EEG), and reading
 behavior (WP3, eye-tracking) are modeled jointly, each used to help predict
 the others. This lets us measure how much of language processing is shaped
 by the grammar each reader brings with them, from their spoken dialect to

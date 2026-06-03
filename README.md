@@ -68,7 +68,7 @@ Search for `TODO` in the project (RStudio's Find-in-Files, **Ctrl+Shift+F**)
 - **`index.qmd`** — drop a portrait photo at `images/jade.jpg`
   (the page is configured for a `~16em` square; any reasonable photo works).
 - **`cv.qmd`** — fill in the education / languages stubs, and put your
-  CV PDF at `pdfs/sandstedt_CV_may_2026.pdf` (create the `pdfs/` folder).
+  CV PDF at `pdfs/Sandstedt_CV_June_2026.pdf` (create the `pdfs/` folder).
 - **`mindreading.qmd`** — the figures are *placeholders* generated from
   simulated data. When you have real pilot results, replace the data inside
   each `r` chunk; the rest of the page stays the same.
