@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jadesandstedt.com/cv.html</loc>
-    <lastmod>2026-06-03T14:15:39.213Z</lastmod>
+    <loc>https://jadesandstedt.com/redesign/publications.html</loc>
+    <lastmod>2026-06-11T21:59:01.581Z</lastmod>
   </url>
   <url>
-    <loc>https://jadesandstedt.com/publications.html</loc>
-    <lastmod>2026-06-11T08:47:23.694Z</lastmod>
+    <loc>https://jadesandstedt.com/redesign/index.html</loc>
+    <lastmod>2026-06-11T22:00:46.305Z</lastmod>
   </url>
   <url>
-    <loc>https://jadesandstedt.com/index.html</loc>
-    <lastmod>2026-05-22T12:40:28.592Z</lastmod>
+    <loc>https://jadesandstedt.com/redesign/404.html</loc>
+    <lastmod>2026-06-11T21:59:01.583Z</lastmod>
   </url>
   <url>
     <loc>https://jadesandstedt.com/mindreading.html</loc>
-    <lastmod>2026-06-11T09:45:03.653Z</lastmod>
+    <lastmod>2026-06-11T21:52:06.251Z</lastmod>
   </url>
   <url>
-    <loc>https://jadesandstedt.com/HOW_TO_UPDATE.html</loc>
-    <lastmod>2026-05-25T20:16:42.435Z</lastmod>
+    <loc>https://jadesandstedt.com/cv.html</loc>
+    <lastmod>2026-06-11T21:52:12.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jadesandstedt.com/index.html</loc>
+    <lastmod>2026-06-11T21:52:15.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jadesandstedt.com/publications.html</loc>
+    <lastmod>2026-06-12T06:26:50.045Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jadesandstedt.com/redesign/cv.html</loc>
+    <lastmod>2026-06-11T22:00:50.117Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jadesandstedt.com/redesign/mindreading.html</loc>
+    <lastmod>2026-06-11T21:59:01.582Z</lastmod>
   </url>
 </urlset>
